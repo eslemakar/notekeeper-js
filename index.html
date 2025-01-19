@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>note keeper</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- pop up -->
+    <div class="popup-box">
+      <div class="popup">
+        <div class="content">
+          <header>
+            <p>not ekle</p>
+            <i class="bx bx-x"></i>
+          </header>
+          <form>
+            <!-- title -->
+            <div class="row title">
+              <label>title</label>
+              <input type="text" />
+            </div>
+            <!-- description -->
+            <div class="row-description">
+              <label>description</label>
+              <textarea></textarea>
+            </div>
+            <button type="submit">add note</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <!-- ekleme alanı -->
+      <li class="add-box">
+        <div class="icon">
+          <i class="bx bx-plus"></i>
+        </div>
+        <p>yeni not ekle</p>
+      </li>
+      <!-- note -->
+      <li class="note">
+        <!-- details -->
+        <div class="details">
+          <p>Note Başlık</p>
+          <span>Note Açıklama</span>
+        </div>
+        <div class="bottom-content">
+          <span>Tarih</span>
+          <div class="settings">
+            <i class="bx bx-dots-horizontal-rounded"></i>
+            <ul class="menu">
+              <li><i class="bx bx-edit"></i>Düzenle</li>
+              <li><i class="bx bx-trash"></i>Sil</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li class="note">
+        <!-- details -->
+        <div class="details">
+          <p>Note Başlık</p>
+          <span>Note Açıklama</span>
+        </div>
+        <div class="bottom-content">
+          <span>Tarih</span>
+          <div class="settings">
+            <i class="bx bx-dots-horizontal-rounded"></i>
+            <ul class="menu">
+              <li><i class="bx bx-edit"></i>Düzenle</li>
+              <li><i class="bx bx-trash"></i>Sil</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li class="note">
+        <!-- details -->
+        <div class="details">
+          <p>Note Başlık</p>
+          <span>Note Açıklama</span>
+        </div>
+
+        <div class="bottom-content">
+          <span>Tarih</span>
+          <div class="settings">
+            <i class="bx bx-dots-horizontal-rounded"></i>
+            <ul class="menu">
+              <li><i class="bx bx-edit"></i>Düzenle</li>
+              <li><i class="bx bx-trash"></i>Sil</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+    </div>
+    <!-- js link -->
+    <script src="main.js"></script>
+  </body>
+</html>
